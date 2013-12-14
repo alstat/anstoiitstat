@@ -1,6 +1,6 @@
 Simulated Distributions
 =====
-The [sim.dist](https://github.com/alstat/anstoiitstat/blob/master/Russell-Abrantes/sim.dist.R) function simulates a `size` observations for 5 continuous probability distributions namely,
+The [sim.dist](https://github.com/alstat/anstoiitstat/blob/master/Russell-Abrantes/sim.dist.R) function simulates `size` observations for 5 continuous probability distributions namely,
 
 1. Normal;
 2. Exponential;
@@ -20,11 +20,11 @@ sim.dist <- function(obs.dist,
                      beta.shape1 = 5,
                      beta.shape2 = 1)
 ```
-So if we wanted to simulate 5000 observations for every 10 variables, then we have
+So to simulate 5000 observations for every 10 variables of each distribution, we code it this way
 ```coffee
 sim.dist(obs.dist = 10, size = 5000)
 ```
-This will return 50 variables in total, with 10 variables Normal, another 10 variables for Exponential, and so on. Other arguments such as `norm.mean` and `norm.sd` are the mean and standard deviation of the random samples from Normal distribution with default value 0 and 1, respectively; the `expo.rate` is the rate of the Exponential distribution; then others are self-explanatory.
+Output will return 50 variables in total, with 10 variables Normal, another 10 variables for Exponential, and so on. Other arguments such as `norm.mean` and `norm.sd` are the mean and standard deviation of the random samples from Normal distribution with default value 0 and 1, respectively; the `expo.rate` is the rate of the Exponential distribution; then others are self-explanatory.
 
 The `sim.dist` has the following structure
 ```coffee
