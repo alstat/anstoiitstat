@@ -32,4 +32,4 @@ Compare the result with `exp.loop`
 ```{coffee}
 sum(exp.loop(500))
 ```
-Finally, looping will take long for sample size starting at `600`, due to lower probability of obtaining a sample that is less than 460.
+Finally, looping will take long for sample size starting at `600`, due to lower probability of obtaining samples with sum that is less than 460.
