@@ -13,7 +13,8 @@ II. Do the previous problem with n = 20, σ2 unknown and t.
 
 Solution
 ===
-```{R}
+```{coffee}
+# The Function
 confirm.alpha <- function(n = 35, Mu = 3, S = sqrt(4), alpha = 0.05, R = 100){
   desc <- numeric()
   for(i in 1:R){
@@ -27,15 +28,10 @@ confirm.alpha <- function(n = 35, Mu = 3, S = sqrt(4), alpha = 0.05, R = 100){
   }
   return(sum(desc) / R)
 }
-```
 
-For I, the answer is
-```{R}
+# For I, the answer is
 confirm.alpha()
-```
 
-For II, the answer is
-For I, the answer is
-```{R}
+# For II, the answer is
 confirm.alpha(n = 20)
 ```
