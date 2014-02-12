@@ -10,3 +10,5 @@ Let $\alpha = 0.05$
 5. Run the above steps $N = 100$ times and determine the percentage of making an incorrect decision. Is this close to $0.05$?
 
 Do the previous problem with $n = 20$, $\sigma^2$ unknown and t.
+
+$z^2$
