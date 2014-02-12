@@ -3,7 +3,7 @@ Simulation Problem
 
 I. Let α = 0.05
 
-   1. Draw a sample of size n = 35  ~N(µ = 3, σ2 =  4), Assume  σ2 unknown.
+   1. Draw a sample of size n = 35 ~ N(µ = 3, σ2 =  4), Assume σ2 unknown.
    2. Compute  z
    3. Decision
    4. Determine if decision is correct or incorrect.
