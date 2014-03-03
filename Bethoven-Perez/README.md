@@ -28,7 +28,7 @@ mydata
 12        0        t4      no
 ```
 
-### The Model
+### the Model
 ```{coffee}
 fit <- anova(lm(response ~ treatment + rinfect, data=mydata))
 fit
